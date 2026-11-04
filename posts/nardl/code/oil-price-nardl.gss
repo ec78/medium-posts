@@ -1,0 +1,60 @@
+/*
+** WTI AND CPI NARDL Example
+*/ 
+library qardl;
+
+// Load data from FRED
+FRED_API_KEY = "7a756a099f64c52f4657b4accc942137";
+
+cpi_data = fred_load("CPIAUCSL", "frequency", "m");
+wti_oil = fred_load("WTISPLC", "frequency", "m");
+
+// Transform data
+infl = asDF(lndiff(cpi_data[., "CPIAUCSL"]), "infl");
+obs = rows(infl);
+diff_infl = asDF((infl[2:obs, "infl"] - infl[1:obs-1, "infl"]), "diff_infl");
+
+cpi_data = trimr(cpi_data~infl,1,0)~diff_infl;
+
+ln_wti = asDF(ln(wti_oil[., "WTISPLC"]), "ln_wti"); 
+diff_ln_wti = asDF(lndiff(wti_oil[., "WTISPLC"]), "diff_ln_wti");
+wti_oil = wti_oil~ln_wti~diff_ln_wti;
+
+data_df = outerJoin(cpi_data, "date", wti_oil, "date");
+
+
+/*
+** Set up for plotting
+*/
+neg_plot_data = selif(data_df, data_df[., "diff_ln_wti"].<0);
+neg_plot_data = selif(neg_plot_data, neg_plot_data[., "diff_ln_wti"] .>= -0.3);
+pos_plot_data = selif(data_df, data_df[., "diff_ln_wti"].>0);
+pos_plot_data = selif(data_df, data_df[., "diff_ln_wti"].<=0.3);
+
+
+plotScatter(neg_plot_data, "diff_infl~diff_ln_wti");
+plotAddScatter(pos_plot_data[., "diff_ln_wti"], pos_plot_data[.,"diff_infl"]);
+plotAddVLine(0);
+
+// Estimate NARDL Model
+// Run the integrated NARDL workflow. Omitting pend/qend uses the
+// package default maximum lag search bounds.
+data_reg = packr(data_df);
+nfOut = nardlFull(data_reg, formula="infl~ln_wti", criterion="bic");
+ardlResidualDiagOut = ardlResidualDiagnostics(nfout.na);
+
+// Step 7: Use the unified prediction and forecast helpers. They infer the
+//         model type from the output structure.
+fit = predictARDL(nfOut.na, packr(data_df), formula="infl~ln_wti");
+fcst = forecastARDL(nfOut.na, packr(data_df), 20, formula="infl~ln_wti");
+
+plotXY(data_df[., "date"], data_df[., "infl"]);
+
+proc (1) = lndiff(x);
+    local ln_x;
+
+    ln_x = ln(x);
+
+    retp(ln_x - lagn(ln_x,1));
+endp;
+
