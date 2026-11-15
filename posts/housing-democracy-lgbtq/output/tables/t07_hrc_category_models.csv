@@ -1,0 +1,7 @@
+model,category_vs_high_priority,n_in_category,coef,ci_low,ci_high,pct,n
+HRC categories,Building Equality,2,0.565843,0.289481,0.842206,76.0932,50
+HRC categories,Solidifying Equality,5,0.00704348,-0.225306,0.239393,0.706834,50
+HRC categories,Working Toward Innovative Equality,20,0.506513,0.333989,0.679038,65.9495,50
+HRC categories + controls,Building Equality,2,0.141546,-0.121476,0.404568,15.2053,50
+HRC categories + controls,Solidifying Equality,5,-0.186673,-0.340525,-0.032821,-17.0285,50
+HRC categories + controls,Working Toward Innovative Equality,20,0.115265,-0.0833632,0.313894,12.2171,50

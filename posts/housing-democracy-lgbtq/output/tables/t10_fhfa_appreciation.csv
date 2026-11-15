@@ -1,0 +1,5 @@
+model,term,coef,se,ci_low,ci_high,p,n,r2,se_type,mean_appreciation_log
+H1 real appreciation 2000-2023 ~ initial SDI (z),sdi0_z,0.065772,0.0264626,0.0139063,0.117638,0.0129379,50,0.13325,HC3,0.494682
+H1 real appreciation 2000-2023 ~ SDI change,dsdi,0.0160567,0.0303504,-0.0434289,0.0755424,0.596774,50,0.00731748,HC3,0.494682
+H1 real appreciation 2008-2023 ~ initial SDI (z),sdi0_z,-0.0130469,0.0167455,-0.0458675,0.0197737,0.435906,50,0.00923314,HC3,0.248368
+H1 real appreciation 2008-2023 ~ SDI change,dsdi,-0.00603404,0.0219395,-0.0490346,0.0369666,0.783292,50,0.00159934,HC3,0.248368

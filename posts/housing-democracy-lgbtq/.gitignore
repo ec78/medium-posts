@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw files whose terms do not clearly permit redistribution (fetched by scripts/01_download.py)
+data/raw/sdi/
+data/raw/zillow/
+data/raw/covi/
+data/raw/hrc/
+data/raw/map/
+
+# Large public-domain files (re-downloadable; hashes in data/raw/MANIFEST.csv)
+data/raw/bea/SAINC.zip
+data/raw/bea/NipaDataA.txt
+data/raw/census_urban/2020_UA_COUNTY.xlsx
+data/raw/freddiemac/
+
+# Processed files containing values derived from sources whose terms do not clearly
+# permit redistribution (Zillow, SDI 2.0, COVI, MAP, HRC). Rebuilt locally by
+# scripts/run_all.py. Kept in git: data dictionaries, merge_log.csv, pce_price_index.csv (BEA).
+data/processed/state_year_panel.csv
+data/processed/cross_section_2023.csv
+data/processed/map_policy_tally_2017_2024.csv
+data/processed/county_zhvi_2023.csv
+data/processed/entry_points_2023.csv
+data/processed/mover_matrix_2023.csv

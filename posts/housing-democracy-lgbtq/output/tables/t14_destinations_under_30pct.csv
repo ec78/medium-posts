@@ -1,0 +1,6 @@
+origin_income_level,origin_income,owner_under30_median,owner_under30_p10,owner_under30_20down,rent_under30_median,rent_under30_entry,n_destinations
+20th pct,28679,0,0,0,0,0,12
+40th pct,53580,0,2,0,5,11,12
+Median,67804,0,5,1,9,12,12
+60th pct,84566,2,5,3,12,12,12
+80th pct,132018,8,12,9,12,12,12

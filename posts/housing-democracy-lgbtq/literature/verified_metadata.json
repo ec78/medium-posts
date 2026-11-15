@@ -1,0 +1,577 @@
+[
+ {
+  "doi": "10.1016/j.jue.2011.09.004",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The influence of gay and lesbian coupled households on house prices in conservative and liberal neighborhoods",
+   "authors": [
+    "Christafore, David",
+    "Leguizamon, Susane"
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "71",
+   "issue": "2",
+   "pages": "258-267",
+   "year": 2012,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1093/jeg/lbp022",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "There goes the metro: how and why bohemians, artists and gays affect regional housing values",
+   "authors": [
+    "Florida, R.",
+    "Mellander, C."
+   ],
+   "journal": "Journal of Economic Geography",
+   "volume": "10",
+   "issue": "2",
+   "pages": "167-188",
+   "year": 2010,
+   "type": "journal-article",
+   "publisher": "Oxford University Press (OUP)"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1006/juec.2001.2237",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Why Do Gay Men Live in San Francisco?",
+   "authors": [
+    "Black, Dan",
+    "Gates, Gary",
+    "Sanders, Seth",
+    "Taylor, Lowell"
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "51",
+   "issue": "1",
+   "pages": "54-76",
+   "year": 2002,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1016/j.jhe.2023.101952",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Political uncertainty and housing markets",
+   "authors": [
+    "Nguyen, Van",
+    "Vergara-Alert, Carles"
+   ],
+   "journal": "Journal of Housing Economics",
+   "volume": "61",
+   "issue": null,
+   "pages": "101952",
+   "year": 2023,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": "This paper examines the causal effects of political uncertainty on housing markets. We used US gubernatorial elections from 1982 to 2018 as a source of exogenous variation in political uncertainty and exploited the regional variations in residential housing markets. We used neighboring states without elections and counties at the state borders without elections as control groups. We found that higher political uncertainty causes (a) a decrease in house price growth; (b) a decrease in the number of housing transactions; and (c) an increase in the number of building permits. These effects are stronger during election years when election outcomes present higher uncertainty. We further examined the impact of political uncertainty on mortgage markets and found that mortgage demand and supply decrease in election years.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1007/s11113-023-09842-7",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Effects of State-Level Abortion and LGBT Laws and Policies on Interstate Migration Attitudes",
+   "authors": [
+    "Baumle, Amanda K.",
+    "Miller, Audrey",
+    "Gregory, Elizabeth"
+   ],
+   "journal": "Population Research and Policy Review",
+   "volume": "42",
+   "issue": "6",
+   "pages": null,
+   "year": 2023,
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1016/j.jue.2010.10.001",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Do liberal cities limit new housing development? Evidence from California",
+   "authors": [
+    "Kahn, Matthew E."
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "69",
+   "issue": "2",
+   "pages": "223-228",
+   "year": 2011,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1016/j.jue.2012.10.002",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "On the origins of land use regulations: Theory and evidence from US metro areas",
+   "authors": [
+    "Hilber, Christian A.L.",
+    "Robert-Nicoud, Frédéric"
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "75",
+   "issue": null,
+   "pages": "29-43",
+   "year": 2013,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1017/S0003055419000844",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The Geography of Inequality: How Land Use Regulation Produces Segregation",
+   "authors": [
+    "TROUNSTINE, JESSICA"
+   ],
+   "journal": "American Political Science Review",
+   "volume": "114",
+   "issue": "2",
+   "pages": "443-455",
+   "year": 2020,
+   "type": "journal-article",
+   "publisher": "Cambridge University Press (CUP)"
+  },
+  "abstract": "Public goods in the United States are largely funded and delivered at the local level. Local public goods are valuable, but their production requires overcoming several collective action problems including coordinating supply and minimizing congestion, free-riding, and peer effects. Land use regulations, promulgated by local governments, allow communities to solve the collective action problems inherent in the provision of local public goods and maintenance of property values. A consequence of these efforts is residential segregation between cities along racial lines. I provide evidence that more stringent land use regulations are supported by whiter communities and that they preserve racial homogeneity. First, I show that cities that were whiter than their metropolitan area in 1970 are more likely to have restrictive land use patterns in 2006. Then, relying on Federal Fair Housing Act lawsuits to generate changes in land use policy, I show that restrictive land use helps to explain metropolitan area segregation patterns over time. Finally, I draw on precinct level initiative elections from several California cities to show that whiter neighborhoods are more supportive of restricting development. These results strongly suggest that even facially race-neutral land use policies have contributed to racial segregation.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1257/jep.32.1.3",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The Economic Implications of Housing Supply",
+   "authors": [
+    "Glaeser, Edward",
+    "Gyourko, Joseph"
+   ],
+   "journal": "Journal of Economic Perspectives",
+   "volume": "32",
+   "issue": "1",
+   "pages": "3-30",
+   "year": 2018,
+   "type": "journal-article",
+   "publisher": "American Economic Association"
+  },
+  "abstract": "In this essay, we review the basic economics of housing supply and the functioning of US housing markets to better understand the distribution of home prices, household wealth, and the spatial distribution of people across markets. We employ a cost-based approach to gauge whether a housing market is delivering appropriately priced units. Specifically, we investigate whether market prices (roughly) equal the costs of producing the housing unit. If so, the market is well-functioning in the sense that it efficiently delivers housing units at their production cost. The gap between price and production cost can be understood as a regulatory tax. The available evidence suggests, but does not definitively prove, that the implicit tax on development created by housing regulations is higher in many areas than any reasonable negative externalities associated with new construction. We discuss two main effects of developments in housing prices: on patterns of household wealth and on the incentives for relocation to high-wage, high-productivity areas. Finally, we turn to policy implications.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1162/qjec.2010.125.3.1253",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The Geographic Determinants of Housing Supply\n                    <sup>*</sup>",
+   "authors": [
+    "Saiz, Albert"
+   ],
+   "journal": "Quarterly Journal of Economics",
+   "volume": "125",
+   "issue": "3",
+   "pages": "1253-1296",
+   "year": 2010,
+   "type": "journal-article",
+   "publisher": "Oxford University Press (OUP)"
+  },
+  "abstract": "I process satellite-generated data on terrain elevation and presence of water bodies to precisely estimate the amount of developable land in U.S. metropolitan areas. The data show that residential development is effectively curtailed by the presence of steep-sloped terrain. I also find that most areas in which housing supply is regarded as inelastic are severely land-constrained by their geography. Econometrically, supply elasticities can be well characterized as functions of both physical and regulatory constraints, which in turn are endogenous to prices and demographic growth. Geography is a key factor in the contemporaneous urban development of the United States.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1257/mac.20170388",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Housing Constraints and Spatial Misallocation",
+   "authors": [
+    "Hsieh, Chang-Tai",
+    "Moretti, Enrico"
+   ],
+   "journal": "American Economic Journal: Macroeconomics",
+   "volume": "11",
+   "issue": "2",
+   "pages": "1-39",
+   "year": 2019,
+   "type": "journal-article",
+   "publisher": "American Economic Association"
+  },
+  "abstract": "We quantify the amount of spatial misallocation of labor across US cities and its aggregate costs. Misallocation arises because high productivity cities like New York and the San Francisco Bay Area have adopted stringent restrictions to new housing supply, effectively limiting the number of workers who have access to such high productivity. Using a spatial equilibrium model and data from 220 metropolitan areas we find that these constraints lowered aggregate US growth by 36 percent from 1964 to 2009. (JEL E23, J24, J31, R23, R31)",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1016/j.jue.2017.07.002",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Why has regional income convergence in the U.S. declined?",
+   "authors": [
+    "Ganong, Peter",
+    "Shoag, Daniel"
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "102",
+   "issue": null,
+   "pages": "76-90",
+   "year": 2017,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1016/j.jue.2021.103337",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The local residential land use regulatory environment across U.S. housing markets: Evidence from a new Wharton index",
+   "authors": [
+    "Gyourko, Joseph",
+    "Hartley, Jonathan S.",
+    "Krimmel, Jacob"
+   ],
+   "journal": "Journal of Urban Economics",
+   "volume": "124",
+   "issue": null,
+   "pages": "103337",
+   "year": 2021,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1086/261120",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Wages, Rents, and the Quality of Life",
+   "authors": [
+    "Roback, Jennifer"
+   ],
+   "journal": "Journal of Political Economy",
+   "volume": "90",
+   "issue": "6",
+   "pages": "1257-1278",
+   "year": 1982,
+   "type": "journal-article",
+   "publisher": "University of Chicago Press"
+  },
+  "abstract": "This study focuses on the role of wages and rents in allocating workers to locations with various quantities of amenities. The theory demonstrates that if the amenity is also productive, then the sign of the wage gradient is unclear while the rent gradient is positive. The theory is extended to include the housing market and nontraded goods. These extensions require little modification of the conclusion. The empirical work on wages shows that the regional wage differences can be explained largely by these local attributes. With the use of site price data, implicit prices are estimated and quality of life rankings for the cities are computed.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1162/REST_a_00550",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "What Are Cities Worth? Land Rents, Local Productivity, and the Total Value of Amenities",
+   "authors": [
+    "Albouy, David"
+   ],
+   "journal": "Review of Economics and Statistics",
+   "volume": "98",
+   "issue": "3",
+   "pages": "477-487",
+   "year": 2016,
+   "type": "journal-article",
+   "publisher": "MIT Press"
+  },
+  "abstract": "This paper models how to use widely available data on wages and housing costs to infer land rents, local productivity, and the total value of local amenities in the presence of federal taxes and locally produced nontraded goods. I apply the model to U.S. metropolitan areas with the aid of visually intuitive graphs. The results improve measures of productivity and feature large differences in land rents. Wage and housing cost differences across metropolitan areas are accounted for more by productivity than quality-of-life differences. Regressions using individual amenities reveal that the most productive and valuable cities are typically coastal, sunny, mild, educated, and large.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1257/pol.5.4.167",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Superstar Cities",
+   "authors": [
+    "Gyourko, Joseph",
+    "Mayer, Christopher",
+    "Sinai, Todd"
+   ],
+   "journal": "American Economic Journal: Economic Policy",
+   "volume": "5",
+   "issue": "4",
+   "pages": "167-199",
+   "year": 2013,
+   "type": "journal-article",
+   "publisher": "American Economic Association"
+  },
+  "abstract": "We document large long-run differences in average house price appreciation across metropolitan areas over the past 50 years, and show they can be explained by an inelastic supply of land in some unique locations combined with an increasing number of highincome households nationally. The resulting high house prices and price-to-rent ratios in those “superstar” areas crowd out lower income households. The same forces generate a similar pattern among municipalities within a metropolitan area. These facts suggest that disparate local house price and income trends can be driven by aggregate demand, not just changes in local factors such as productivity or amenities. (JEL R11, R23, R31, R52)",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1257/aer.20131706",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The Determinants and Welfare Implications of US Workers' Diverging Location Choices by Skill: 1980–2000",
+   "authors": [
+    "Diamond, Rebecca"
+   ],
+   "journal": "American Economic Review",
+   "volume": "106",
+   "issue": "3",
+   "pages": "479-524",
+   "year": 2016,
+   "type": "journal-article",
+   "publisher": "American Economic Association"
+  },
+  "abstract": "From 1980 to 2000, the rise in the US college/high school graduate wage gap coincided with increased geographic sorting as college graduates concentrated in high wage, high rent cities. This paper estimates a structural spatial equilibrium model to determine causes and welfare consequences of this increased skill sorting. While local labor demand changes fundamentally caused the increased skill sorting, it was further fueled by endogenous increases in amenities within higher skill cities. Changes in cities' wages, rents, and endogenous amenities increased inequality between high school and college graduates by more than suggested by the increase in the college wage gap alone. (JEL D31, I26, J24, J31, J61, R23)",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1257/app.5.1.65",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Real Wage Inequality",
+   "authors": [
+    "Moretti, Enrico"
+   ],
+   "journal": "American Economic Journal: Applied Economics",
+   "volume": "5",
+   "issue": "1",
+   "pages": "65-103",
+   "year": 2013,
+   "type": "journal-article",
+   "publisher": "American Economic Association"
+  },
+  "abstract": "A large literature has documented a significant increase in the difference between the wage of college graduates and high school graduates over the past 30 years.I show that from 1980 to 2000, college graduates have experienced relatively larger increases in cost of living, because they have increasingly concentrated in metropolitan areas that are characterized by a high cost of housing.When I deflate nominal wages using a location-specific CPI, I find that the difference between the wage of college graduates and high school graduates is lower in real terms than in nominal terms and has grown less.At least 22% of the documented increase in college premium is accounted for by spatial differences in the cost of living.The implications of this finding for changes in well-being inequality depend on why college graduates sort into expensive cities.Using a simple general equilibrium model of the labor and housing markets, I consider two alternative explanations.First, it is possible that the relative supply of college graduates increases in expensive cities because college graduates are increasingly attracted by amenities located in those cities.In this case, the higher cost of housing reflects consumption of desirable local amenities, and there may still be a significant increase in well-being inequality even if the increase in real wage inequality is limited.Alternatively, it is possible that the relative demand for college graduates increases in expensive cities due to shifts in the relative productivity of skilled labor.In this case, the relative increase in skilled workers' standard of living is offset by the higher cost of living.The evidence indicates that changes in the geographical location of different skill groups are mostly driven by changes in their relative demand.I conclude that the increase in well-being disparities between 1980 and 2000 is smaller than the increase in nominal wage disparities that has been the focus of the previous literature.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1093/restud/rdu033",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Goods Prices and Availability in Cities",
+   "authors": [
+    "Handbury, J.",
+    "Weinstein, D. E."
+   ],
+   "journal": "The Review of Economic Studies",
+   "volume": "82",
+   "issue": "1",
+   "pages": "258-296",
+   "year": 2015,
+   "type": "journal-article",
+   "publisher": "Oxford University Press (OUP)"
+  },
+  "abstract": "This article uses detailed barcode data on purchase transactions by households in 49 U.S. cities to calculate the first theoretically founded urban price index. In doing so, we overcome a large number of problems that have plagued spatial price index measurement. We identify two important sources of bias. Heterogeneity bias arises from comparing different goods in different locations, and variety bias arises from not correcting for the fact that some goods are unavailable in some locations. Eliminating heterogeneity bias causes 97% of the variance in the price level of food products across cities to disappear relative to a conventional index. Eliminating both biases reverses the common finding that prices tend to be higher in larger cities. Instead, we find that price level for food products falls with city size.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.3982/ECTA11738",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Are Poor Cities Cheap for Everyone? Non‐Homotheticity and the Cost of Living Across U.S. Cities",
+   "authors": [
+    "Handbury, Jessie"
+   ],
+   "journal": "Econometrica",
+   "volume": "89",
+   "issue": "6",
+   "pages": "2679-2715",
+   "year": 2021,
+   "type": "journal-article",
+   "publisher": "The Econometric Society"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1086/687569",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Why Partisans Do Not Sort: The Constraints on Political Segregation",
+   "authors": [
+    "Mummolo, Jonathan",
+    "Nall, Clayton"
+   ],
+   "journal": "The Journal of Politics",
+   "volume": "79",
+   "issue": "1",
+   "pages": "45-59",
+   "year": 2017,
+   "type": "journal-article",
+   "publisher": "University of Chicago Press"
+  },
+  "abstract": "Social divisions between American partisans are growing, with Republicans and Democrats exhibiting homophily in a range of seemingly nonpolitical domains. It has been widely claimed that this partisan social divide extends to Americans’ decisions about where to live. In two original survey experiments, we confirm that Democrats are, in fact, more likely than Republicans to prefer living in more Democratic, dense, and racially diverse places. However, improving on previous studies, we test respondents’ stated preferences against their actual moving behavior. While partisans differ in their residential preferences, on average they are not migrating to more politically distinct communities. Using zip-code-level census and partisanship data on the places where respondents live, we provide one explanation for this contradiction: by prioritizing common concerns when deciding where to live, Americans forgo the opportunity to move to more politically compatible communities.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1016/j.polgeo.2014.11.003",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Seeking politically compatible neighbors? The role of neighborhood partisan composition in residential sorting",
+   "authors": [
+    "Gimpel, James G.",
+    "Hui, Iris S."
+   ],
+   "journal": "Political Geography",
+   "volume": "48",
+   "issue": null,
+   "pages": "130-142",
+   "year": 2015,
+   "type": "journal-article",
+   "publisher": "Elsevier BV"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1038/s41562-021-01066-z",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The measurement of partisan sorting for 180 million voters",
+   "authors": [
+    "Brown, Jacob R.",
+    "Enos, Ryan D."
+   ],
+   "journal": "Nature Human Behaviour",
+   "volume": "5",
+   "issue": "8",
+   "pages": "998-1008",
+   "year": 2021,
+   "type": "journal-article",
+   "publisher": "Springer Science and Business Media LLC"
+  },
+  "abstract": null,
+  "abstract_source": null
+ },
+ {
+  "doi": "10.1017/S0003055422000934",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Laboratories of Democratic Backsliding",
+   "authors": [
+    "GRUMBACH, JACOB M."
+   ],
+   "journal": "American Political Science Review",
+   "volume": "117",
+   "issue": "3",
+   "pages": "967-984",
+   "year": 2023,
+   "type": "journal-article",
+   "publisher": "Cambridge University Press (CUP)"
+  },
+  "abstract": "The Trump presidency generated concern about democratic backsliding and renewed interest in measuring the national democratic performance of the United States. However, the US has a decentralized form of federalism that administers democratic institutions at the state level. Using 51 indicators of electoral democracy from 2000 to 2018, I develop a measure of subnational democratic performance, the State Democracy Index. I then test theories of democratic expansion and backsliding based in party competition, polarization, demographic change, and the group interests of national party coalitions. Difference-in-differences results suggest a minimal role for all factors except Republican control of state government, which dramatically reduces states’ democratic performance during this period. This result calls into question theories focused on changes within states. The racial, geographic, and economic incentives of groups innationalparty coalitions may instead determine the health of democracy in the states.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1017/psrm.2025.10051",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Laboratories of democratic renewal: explaining substantial improvement in the quality of democracy in the American States",
+   "authors": [
+    "Rhodes, Jesse H."
+   ],
+   "journal": "Political Science Research and Methods",
+   "volume": "14",
+   "issue": "4",
+   "pages": "1269-1286",
+   "year": 2026,
+   "type": "journal-article",
+   "publisher": "Cambridge University Press (CUP)"
+  },
+  "abstract": "Abstract In this article, I center substantial improvement in subnational democracy in the U.S. states as an object of inquiry and seek to explain it. I theorize that strong unions, high Democratic Party control of state government, an especially liberal Democratic Party, a large population of people of color, and a particularly liberal public mood may each contribute to substantial improvement in democratic quality. Using Coincidence Analysis (CNA), a configurational causal method, I assess the evidence for my hypotheses. The CNA identifies three alternative paths to substantial improvement in electoral democracy in the states. The results of my analysis highlight that substantial improvement in electoral democracy is the product of political struggle centrally involving unions and the Democratic Party.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1089/elj.2017.0478",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Cost of Voting in the American States",
+   "authors": [
+    "Li, Quan",
+    "Pomante, Michael J.",
+    "Schraufnagel, Scot"
+   ],
+   "journal": "Election Law Journal: Rules, Politics, and Policy",
+   "volume": "17",
+   "issue": "3",
+   "pages": "234-247",
+   "year": 2018,
+   "type": "journal-article",
+   "publisher": "SAGE Publications"
+  },
+  "abstract": "Our research uses principal component analysis and information on 33 different state election laws, assembled in seven different issue areas, to create a Cost of Voting Index (COVI) for each of the 50 American states in each presidential election year from 1996 through 2016. In addition to providing detailed description of measurement and coding decisions used in index construction, we conduct sensitivity analyses to test relevant assumptions made during the course of index construction. The COVI reported in the article is the one that is the most theoretically sound and empirically indistinct from the other index construction options considered. We also test the construct validity of the COVI using both state-level and individual-level voter turnout. After controlling for other considerations, we find aggregate voter turnout is lower in states with higher index values and self-reported turnout also drops in states with larger index values.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1089/elj.2024.0037",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Cost of Voting in the American States: 2024",
+   "authors": [
+    "Pomante, Michael J."
+   ],
+   "journal": "Election Law Journal: Rules, Politics, and Policy",
+   "volume": "24",
+   "issue": "1",
+   "pages": "52-61",
+   "year": 2025,
+   "type": "journal-article",
+   "publisher": "SAGE Publications"
+  },
+  "abstract": "The evolution of state election laws continues to impact the ease with which citizens can vote. This study updates the Cost of Voting Index (COVI) for the 2024 US presidential election by analyzing recent legislation that affects voting accessibility across the 50 states. The COVI measures the time and effort required to vote, encompassing criteria such as registration requirements, voter identification laws, early voting availability, and absentee voting procedures. To keep pace with the changing nature of election laws, I include one new voting law to construct this year’s index: a requirement for multiple signatures on absentee ballot envelopes. In the 2024 rankings, Oregon remains the most accessible state for voters, while Mississippi is now the most restrictive. Furthermore, the research uncovers a trend of increasing polarization in voting accessibility, with Republican-controlled states generally enacting more stringent voting laws and Democratic-controlled states adopting more voter-friendly measures.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1111/ajps.12219",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "The Dynamics of State Policy Liberalism, 1936–2014",
+   "authors": [
+    "Caughey, Devin",
+    "Warshaw, Christopher"
+   ],
+   "journal": "American Journal of Political Science",
+   "volume": "60",
+   "issue": "4",
+   "pages": "899-913",
+   "year": 2016,
+   "type": "journal-article",
+   "publisher": "Wiley"
+  },
+  "abstract": "Abstract Applying a dynamic latent‐variable model to data on 148 policies collected over eight decades (1936–2014), we produce the first yearly measure of the policy liberalism of U.S. states. Our dynamic measure of state policy liberalism marks an important advance over existing measures, almost all of which are purely cross‐sectional and thus cannot be used to study policy change. We find that, in the aggregate, the policy liberalism of U.S. states steadily increased between the 1930s and 1970s and then largely plateaued. The policy liberalism of most states has remained stable in relative terms, though several states have shifted considerably over time. We also find surprisingly little evidence of multidimensionality in state policy outputs. Our new estimates of state policy liberalism have broad application to the study of political development, representation, accountability, and other important issues in political science.",
+  "abstract_source": "openalex"
+ },
+ {
+  "doi": "10.1017/S0003055409990050",
+  "checked": "2026-11-06",
+  "crossref": {
+   "title": "Gay Rights in the States: Public Opinion and Policy Responsiveness",
+   "authors": [
+    "LAX, JEFFREY R.",
+    "PHILLIPS, JUSTIN H."
+   ],
+   "journal": "American Political Science Review",
+   "volume": "103",
+   "issue": "3",
+   "pages": "367-386",
+   "year": 2009,
+   "type": "journal-article",
+   "publisher": "Cambridge University Press (CUP)"
+  },
+  "abstract": "We study the effects of policy-specific public opinion on state adoption of policies affecting gays and lesbians, and the factors that condition this relationship. Using national surveys and advances in opinion estimation, we create new estimates of state-level support for eight policies, including civil unions and nondiscrimination laws. We differentiate between responsiveness to opinion and congruence with opinion majorities. We find a high degree of responsiveness, controlling for interest group pressure and the ideology of voters and elected officials. Policy salience strongly increases the influence of policy-specific opinion (directly and relative to general voter ideology). There is, however, a surprising amount of noncongruence—for some policies, even clear supermajority support seems insufficient for adoption. When noncongruent, policy tends to be more conservative than desired by voters; that is, there is little progay policy bias. We find little to no evidence that state political institutions affect policy responsiveness or congruence.",
+  "abstract_source": "openalex"
+ }
+]

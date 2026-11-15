@@ -1,0 +1,7 @@
+measure,origin_median,destination_median,ratio,r_log_with_sdi,r_log_with_map,n
+Home value: state typical (ZHVI),239646,412458,1.72112,0.498285,0.611712,50
+Home value: entry point E-P10,167688,307896,1.83613,0.415131,0.551724,50
+Home value: cheapest county >= 100k (E-100k),161177,271579,1.68497,0.320836,0.346145,50
+Home value: cheapest county (E-min),90672.8,167713,1.84966,0.362808,0.525035,50
+Median gross rent: state,1020,1472,1.44314,0.47465,0.63076,50
+Median gross rent: cheapest county >= 100k,929,1030,1.10872,0.308992,0.438698,50
