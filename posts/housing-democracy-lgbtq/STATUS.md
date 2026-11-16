@@ -2,7 +2,7 @@
 
 Last updated: 2026-11-16.
 
-**Published** as [Moving for Your Rights Has a Price Tag](TBD-MEDIUM-URL) on 2026-11-16. The post uses figures f01b, f13 and f11.
+**Published** as [Moving for Your Rights Has a Price Tag](https://medium.com/@eclow/moving-for-your-rights-has-a-price-tag-00673cf91d7f) on 2026-11-16. The post uses figures f01b, f13 and f11.
 
 ## Done
 

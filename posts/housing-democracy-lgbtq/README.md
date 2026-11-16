@@ -1,6 +1,6 @@
 # Home prices, electoral democracy and LGBTQ legal equality across U.S. states
 
-Research behind the Medium post **[Moving for Your Rights Has a Price Tag](TBD-MEDIUM-URL)**
+Research behind the Medium post **[Moving for Your Rights Has a Price Tag](https://medium.com/@eclow/moving-for-your-rights-has-a-price-tag-00673cf91d7f)**
 (published 2026-11-16). It tests an informal observation,
 *states with higher home prices seem to have stronger democracy*, and asks
 whether home prices also track LGBTQ legal equality and broader consumer
