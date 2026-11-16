@@ -14,6 +14,7 @@ Newest first.
 
 | Published | Post | Assets | Code |
 |---|---|---|---|
+| 2026-11-16 | [Moving for Your Rights Has a Price Tag](TBD-MEDIUM-URL) | [housing-democracy-lgbtq/](posts/housing-democracy-lgbtq/) | [scripts/](posts/housing-democracy-lgbtq/scripts/), [notebook](posts/housing-democracy-lgbtq/notebooks/analysis.ipynb) (Python) |
 | 2026-11-03 | [Are You Confident Your Optimization Is Really the Maximum?](https://medium.com/@eclow/are-you-confident-your-optimization-is-really-the-maximum-b91d5b0c020f) | [kernel-convergence/](posts/kernel-convergence/) | |
 | 2026-10-02 | [Revisiting and Rebuilding My Grad Thesis, Twenty Years Later](https://medium.com/@eclow/revisiting-and-rebuilding-my-grad-thesis-twenty-years-later-8d608f03b665) | | |
 | 2026-09-21 | [The Token Problem Isn't How Much Context You Use. It's What's In It.](https://medium.com/@eclow/the-token-problem-isnt-how-much-context-you-use-it-s-what-s-in-it-7df2a6dc351f) | | |

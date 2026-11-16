@@ -24,3 +24,6 @@ data/processed/map_policy_tally_2017_2024.csv
 data/processed/county_zhvi_2023.csv
 data/processed/entry_points_2023.csv
 data/processed/mover_matrix_2023.csv
+
+# Post drafts stay local until published
+drafts/

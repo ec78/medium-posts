@@ -1,6 +1,8 @@
 # Project status
 
-Last updated: 2026-11-14.
+Last updated: 2026-11-16.
+
+**Published** as [Moving for Your Rights Has a Price Tag](TBD-MEDIUM-URL) on 2026-11-16. The post uses figures f01b, f13 and f11.
 
 ## Done
 
@@ -9,6 +11,8 @@ Last updated: 2026-11-14.
 * Pre-specified analysis plan with post hoc changes logged ([docs/analysis_plan.md](docs/analysis_plan.md)).
 * Download, clean, merge and validate pipeline; analysis; figures; executed notebook; research memo.
 * Mover's-eye extension (2026-11-14): affordability matrix and county entry points (memo section 6; `scripts/06_mover.py`).
+* Post-ready figures (2026-11-15): single-panel f01b and simplified mover chart f13; every figure carries a source line.
+* Medium post published 2026-11-16.
 
 ## Unresolved data issues
 

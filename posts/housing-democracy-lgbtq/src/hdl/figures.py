@@ -43,6 +43,7 @@ _MAP = "Movement Advancement Project policy tallies (via Internet Archive)"
 # Source line printed under every figure. Zillow's terms require clear attribution.
 SOURCES = {
     "f01_sdi_vs_home_values_2023": [_ZILLOW, _SDI],
+    "f01b_sdi_vs_home_values_log": [_ZILLOW, _SDI],
     "f02_annual_correlations": [_ZILLOW, _SDI],
     "f03_within_state": [_ZILLOW, _SDI, "BEA PCE price index"],
     "f04_leave_one_out": [_ZILLOW, _SDI, "U.S. Census Bureau ACS and 2020 Census"],
@@ -56,6 +57,8 @@ SOURCES = {
     "f11_entry_points": [_ZILLOW + " (state and county)", "U.S. Census Bureau 2020 Census", _SDI, _MAP],
     "f12_mover_cost_share": [_ZILLOW + " (state and county)", "U.S. Census Bureau ACS 1-year",
                              "Freddie Mac Primary Mortgage Market Survey", _SDI, _MAP],
+    "f13_mover_cost_simple": [_ZILLOW + " (state and county)", "U.S. Census Bureau ACS 1-year",
+                              "Freddie Mac Primary Mortgage Market Survey", _SDI, _MAP],
 }
 
 

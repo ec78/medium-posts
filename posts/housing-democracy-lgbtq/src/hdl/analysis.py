@@ -417,6 +417,18 @@ def make_figures(panel, cs, res) -> list[str]:
     fig.text(0.01, -0.03, "50 states. Line: OLS fit. ZHVI = mean of monthly values (35th-65th pct homes).", fontsize=8, color=F.INK2)
     out.append(F.save(fig, "f01_sdi_vs_home_values_2023"))
 
+    # F1b single-panel log version for the blog post (general-reader labels)
+    fig, ax = plt.subplots(figsize=(7.5, 5.4))
+    F.scatter_labeled(ax, cs.sdi, cs.zhvi, cs.st,
+                      "State Democracy Index score, 2023 (higher = stronger electoral democracy)",
+                      "Typical home value, 2023 (log scale)",
+                      "States with higher democracy scores tend to have pricier homes", ["TN", "IL", "CA", "HI"],
+                      logy=True)
+    F.log_dollar_axis(ax)
+    fig.text(0.0, -0.01, "Each dot is a state (50). Line: best fit. Home value: Zillow Home Value Index, "
+             "2023 average.", fontsize=8, color=F.INK2, va="top")
+    out.append(F.save(fig, "f01b_sdi_vs_home_values_log"))
+
     # F2 annual cross-sectional correlations
     ac = res["annual"]
     fig, ax = plt.subplots(figsize=(8, 4.2))

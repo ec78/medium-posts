@@ -261,6 +261,43 @@ def fig_cost_heatmap(tab: pd.DataFrame) -> str:
     return F.save(fig, "f12_mover_cost_share")
 
 
+def fig_cost_simple(heat: pd.DataFrame, income: float) -> str:
+    """Post figure: one row per destination at the median origin income; three costs vs the 30% line."""
+    F.style()
+    d = heat[heat.income_level == "median"].sort_values("owner_share_median").reset_index(drop=True)
+    fig, ax = plt.subplots(figsize=(7.5, 5.6))
+    y = np.arange(len(d))
+    lo = d[["owner_share_median", "owner_share_p10", "rent_share_entry"]].min(axis=1)
+    hi = d[["owner_share_median", "owner_share_p10", "rent_share_entry"]].max(axis=1)
+    ax.hlines(y, lo, hi, color=F.GRID, lw=2, zorder=1)
+    ax.axvline(BURDEN, color=F.INK2, lw=1.2, ls="--", zorder=1)
+    ax.text(BURDEN, len(d) - 0.35, " 30% of income", color=F.INK2, fontsize=8.5, va="bottom")
+    series = [("owner_share_median", "Buy the state's typical home", F.S1),
+              ("owner_share_p10", "Buy at the state's cheaper entry point", F.S2),
+              ("rent_share_entry", "Rent in the cheapest large county", F.S3)]
+    for col, label, colour in series:
+        ax.scatter(d[col], y, s=52, color=colour, edgecolor=F.SURFACE, linewidth=1.5, zorder=3, label=label)
+    for yi, v in zip(y, d.owner_share_median):
+        ax.annotate(f"{v:.0%}", (v, yi), xytext=(7, 0), textcoords="offset points", va="center",
+                    fontsize=8, color=F.INK2)
+    names = state_crosswalk().set_index("st").state
+    ax.set_yticks(y)
+    ax.set_yticklabels([names[s] for s in d.dest])
+    ax.set_ylim(-0.6, len(d) + 0.4)
+    ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
+    ax.set_xlim(0, max(0.9, d.owner_share_median.max() + 0.08))
+    ax.grid(axis="y", visible=False)
+    ax.set_xlabel(f"Monthly housing cost as a share of a ${income/1000:,.0f}k household income")
+    ax.set_title("Moving to a high-ranked state on a typical low-ranked-state income (2023)")
+    ax.legend(loc="lower right", fontsize=8.5, handletextpad=0.3)
+    fig.text(0.0, -0.02, "High-ranked: top third on both the State Democracy Index and the MAP LGBTQ policy tally. "
+             "Income: median household income\nacross the 13 states in the bottom third on both. Buying: 10% down, "
+             "30-year fixed at 6.81%, plus property tax; excludes insurance.\nEntry point: home value in the cheapest "
+             "counties holding 10% of residents. Large county: 100,000+ people. Rent includes utilities.",
+             fontsize=7.5, color=F.INK2, va="top")
+    return F.save(fig, "f13_mover_cost_simple")
+
+
 # --------------------------------------------------------------------------
 # Data dictionary for the processed mover files
 # --------------------------------------------------------------------------
@@ -410,7 +447,7 @@ def run_mover() -> dict:
 
     write_mover_dictionary({"entry_points_2023.csv": st, "county_zhvi_2023.csv": county,
                             "mover_matrix_2023.csv": m})
-    figs = [fig_entry_dumbbell(st), fig_cost_heatmap(heat)]
+    figs = [fig_entry_dumbbell(st), fig_cost_heatmap(heat), fig_cost_simple(heat, oinc["median"])]
     return {"rate": rate, "origins": origins, "destinations": dests, "origin_income": oinc, "state": st,
             "county": county, "matrix": m, "t11": t11, "t12": t12, "t13": t13, "t14": t14, "home": home,
             "figures": figs}

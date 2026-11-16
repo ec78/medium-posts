@@ -100,6 +100,7 @@ print("destination states:", " ".join(mv['destinations']))
 mv['origin_income']"""),
     code("display(Image(str(FIG / 'f11_entry_points.png')))\nmv['t13']"),
     md("""**Entry points.** E-P10 is the county home value below which the cheapest-county tenth of a state's residents live. It is 15-54% below the state typical value in destination states. But origin states have cheap counties too, so the destination/origin ratio barely moves (1.72 at state typical values, 1.84 at E-P10). Rents are different: the cheapest large-county rent in destination states is only about 11% above the origin median, versus 44% for state median rents. Small states with one large county (Vermont) make E-100k degenerate."""),
+    code("display(Image(str(FIG / 'f13_mover_cost_simple.png')))  # figure 2 in the published post"),
     code("display(Image(str(FIG / 'f12_mover_cost_share.png')))\nmv['t14']"),
     code("mv['t12'][['dest','zhvi','entry_p10','pti_median','pti_p10','owner_share_median','owner_share_p10','rent_share_median','rent_share_entry','owner_share_local','down_median','down_p10']]"),
     code("mv['home']"),

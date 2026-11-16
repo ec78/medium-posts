@@ -1,6 +1,7 @@
 # Home prices, electoral democracy and LGBTQ legal equality across U.S. states
 
-Research project for an upcoming post. It tests an informal observation,
+Research behind the Medium post **[Moving for Your Rights Has a Price Tag](TBD-MEDIUM-URL)**
+(published 2026-11-16). It tests an informal observation,
 *states with higher home prices seem to have stronger democracy*, and asks
 whether home prices also track LGBTQ legal equality and broader consumer
 price levels. The analysis is descriptive; it estimates no causal effects.
@@ -34,14 +35,25 @@ data/raw/MANIFEST.csv           URL, access date, size, SHA-256 and redistributi
 data/processed/                 state_year_panel.csv (50 x 2000-2024), cross_section_2023.csv,
                                 data_dictionary.{csv,md}, merge_log.csv, map_policy_tally_2017_2024.csv,
                                 entry_points_2023.csv, county_zhvi_2023.csv, mover_matrix_2023.csv (+ mover_data_dictionary.md)
+                                (only the dictionaries, merge_log.csv and pce_price_index.csv are in git; see below)
 src/hdl/                        reusable code: build (load/clean/validate/merge), stats, analysis, mover, figures
 scripts/01_download.py ... 06   pipeline steps; run_all.py runs them in order (06_mover before 04_notebook)
 notebooks/analysis.ipynb        executed notebook calling src/hdl
 output/tables/                  model and descriptive tables (.csv + .md)
-output/figures/                 figures (.png + .svg)
+output/figures/                 figures (.png + .svg); the three used in the post are listed below
 literature/                     evidence_table.{csv,md}, synthesis.md, search_log.md, bibliography.bib,
                                 verified_metadata.json, search_results_openalex.jsonl
 ```
+
+## Figures in the post
+
+| Post figure | File | Shows |
+|---|---|---|
+| 1 | [f01b_sdi_vs_home_values_log.png](output/figures/f01b_sdi_vs_home_values_log.png) | Home values vs State Democracy Index, 50 states, 2023 |
+| 2 | [f13_mover_cost_simple.png](output/figures/f13_mover_cost_simple.png) | Housing cost as a share of a $68k income in each high-ranked state: typical home, entry point, cheapest large-county rent |
+| 3 | [f11_entry_points.png](output/figures/f11_entry_points.png) | Typical home value vs cheaper entry point, every state |
+
+The numbers quoted in the post come from [docs/research_memo.md](docs/research_memo.md) (sections 1-6) and tables t03, t11-t14 and t12b in [output/tables/](output/tables/). The post draft itself is not kept in the repository.
 
 ## Setup and commands
 
